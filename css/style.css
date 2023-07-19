@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    /* width: 100vw; */
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.color-text{
+    color: #FF42A5;
+}
+
+
+/* header section  */
+header{
+    display:block;
+}
+/* navbar section  */
+.navbar{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    height: 70px;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.062);
+}
+.navbar>h1{
+    font-size: 1.6rem;
+    margin: 0 70px;
+}
+.navbar>h1>img{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+}
+.navbar>ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    align-items: center;
+    width: 400px;
+}
+ul>li{
+    list-style-type: none;
+}
+.navbar>ul>li:nth-child(3)>a{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    background-color: #0b022318;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: black
+    ;
+}
+#youtube,#tiktok {
+    width: 20px;
+    height: 20px;
+}
+/* banneer section  */
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-txt,.banner>.img {
+    width: 50%;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+}
+.banner-txt>.banner-txt-op{
+    width: 350px;
+}
+.banner-txt{
+    background-image: url("../assets/background.png");
+    background-size: 100% 100%;
+    align-items: center;
+}
+.banner-txt-op>p{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.banner-txt-op span{
+    font-size: 2em;
+    font-weight: 900;
+    background:linear-gradient(to bottom, #F948B2,#8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-txt-op li{
+    list-style-type: none;
+    margin: 4px 0;
+}
+.banner-txt-op li img{
+    width: 20px;
+    height: 20px;
+    margin-right:5px;
+}
+.btn{
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+}
+.sign{
+    background-color: #FF42A5;
+    margin-left: 0;
+}
+.rouge{
+    background-color: #4EC5F7;
+}
