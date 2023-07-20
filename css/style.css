@@ -367,14 +367,13 @@ footer li{
   footer li a img{
     height: 50px;
     width: 50px;
-    background-color: #ffffff;
     border-radius: 10px;
   }
  
 
 
 
-  @media screen and (max-width:425px) {
+  @media screen and (max-width:575px) {
     body{
         font-size: 0.70rem;
     }
@@ -520,5 +519,6 @@ footer li{
         width: 200px;
         height: 450px;
     }
+
 
   }
